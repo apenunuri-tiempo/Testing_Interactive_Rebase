@@ -7,6 +7,14 @@ namespace GitTests
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine(Method_BranchA());
+            Console.ReadLine();
+
+        }
+
+        private static string Method_BranchA()
+        {
+            return "Method from Branch A";
         }
     }
 }

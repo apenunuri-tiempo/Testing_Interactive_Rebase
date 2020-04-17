@@ -8,6 +8,7 @@ namespace GitTests
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine(Method_BranchA());
+            Console.WriteLine(Method_BranchB());
             Console.ReadLine();
 
         }
@@ -15,6 +16,11 @@ namespace GitTests
         private static string Method_BranchA()
         {
             return "Method from Branch A";
+        }
+
+        private static string Method_BranchB()
+        {
+            return "Method from Branch B";
         }
     }
 }

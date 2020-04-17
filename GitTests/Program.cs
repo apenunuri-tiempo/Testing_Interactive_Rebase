@@ -7,8 +7,8 @@ namespace GitTests
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine(Method_Branch1());
             Console.WriteLine(Method_Branch2());
+            Console.WriteLine(Method_Branch1());
             Console.ReadLine();
         }
 
